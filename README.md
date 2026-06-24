@@ -39,3 +39,9 @@ CentOS 7
 https://1024.day/d/1296
 
 **提醒：连不上的朋友，建议先检查一下服务器自带防火墙有没有关闭？**
+
+nftables端口转发脚本，运行在前置线路机上：
+
+```
+wget https://raw.githubusercontent.com/cnabctk/v2ray-wss/main/nft_forward.sh && bash nft_forward.sh
+```
